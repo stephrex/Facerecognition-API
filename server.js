@@ -17,7 +17,7 @@ const db = knex({
     Username : 'stephen',
     Password : 'XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX',
     Database : 'facerecognitiondb_fzed',
-    Internal Database URL: 'postgres://stephen:XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX@dpg-ced69b94reb8942rr060-a.oregon-postgres.render.com/facerecognitiondb_fzed'
+    // Internal Database URL: 'postgres://stephen:XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX@dpg-ced69b94reb8942rr060-a.oregon-postgres.render.com/facerecognitiondb_fzed'
     PSQL Command: 'PGPASSWORD=XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX psql -h dpg-ced69b94reb8942rr060-a.oregon-postgres.render.com -U stephen facerecognitiondb_fzed'
   }
 });
