@@ -11,8 +11,8 @@ const image = require('./controllers/image');
 
 const db = knex({
   client: 'pg',
-  connection: 'postgres://stephen:XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX@dpg-ced69b94reb8942rr060-a.oregon-postgres.render.com/facerecognitiondb_fzed'
-});
+  connection: 'postgres://stephen:XRaEuBnXbLmTHoppQyyDHM9RuVeasXGX@dpg-ced69b94reb8942rr060-a/facerecognitiondb_fzed'
+})
 
 
 const app = express();
